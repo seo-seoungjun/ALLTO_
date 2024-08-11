@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+  font-size: 62.5%;
+}
+
+.loding{
+  background-color: #11111b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+}
+
+#lode{
+  display: block;
+  transform: scale(0.25);
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #63f3f4;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+  }
+
+  img{
+    display: block;
+  }
+
+  article h2{
+    font-family:'mr-eaves-modern';
+  }
+
+  article p{
+    font-family: 'sandoll-gothicneo1';
+  }
+
+#section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/sinjeon-gradient.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#section1 img{
+  width: 35%;
+}
+
+section article{
+  width: 94%;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section article div:nth-child(1){
+  margin-right: 142px;
+}
+
+
+section article h2{
+  color: #c7002e;
+  font-size: 2rem;
+  width: 160px;
+  line-height: 2rem;
+}
+
+
+section article p{
+  font-size: 1.3rem;
+  display: block;
+  text-align: left;
+  line-height: 2rem;
+  color: #740000;
+}
+
+
+#project_overviwe-imgwrap img{
+  margin-top: 73px;
+  width: 100%;
+}
+
+
+.market_research-imgwrap{
+  margin-top: 78px;
+}
+
+.market_research-imgwrap img{
+  width: 100%;
+}
+
+.project_goal-chartwrap{
+  width: 97%;
+  margin: 0 auto;
+  margin-top: 110px;
+}
+
+.project_goal-chartwrap img{
+  width: 100%;
+}
+
+.brand_identity-chartwrap{
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 185px;
+}
+
+.brand_identity-chartwrap img{
+  width: 100%;
+}
+
+#brand_manifasto{
+  position: relative;
+}
+
+#brand_manifasto img:nth-child(1){
+  width: 100%;
+}
+
+#brand_manifasto img:nth-child(2){
+  top: 44.5px;
+  left: 37.5px;
+  position: absolute;
+}
+
+#brand_manifasto img:nth-child(3){
+  top: 37.5px;
+  right: 146px;
+  position: absolute;
+}
+
+#video img{
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+}
+
+#ALLTO-contact{
+  position: relative;
+  background-color: #11111b;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter' !important;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+#ALLTO-contact div:first-child{
+  position: absolute;
+  top:20px;
+  left:30px;
+  text-align: left;
+}
+
+#ALLTO-contact div:first-child p:first-child{
+  margin-bottom: 10px;
+}
+
+.ALLTO-logowrap {
+  width: 45%;
+}
+
+.ALLTO-logowrap img{
+  width: 100%;
+}
+
+#ALLTO-contact div:last-child{
+  position: absolute;
+  bottom:20px;
+  right:30px;
+  text-align: right;
+}
+
+#ALLTO-contact div:last-child p:first-child{
+  margin-bottom: 10px;
+}
+
+#ALLTO-contact div:last-child p:last-child{
+  margin-top: 10px;
+}
+
+#ALLTO-contact div:last-child a{
+  color: #63f3f4;
+}
+
+@media (max-width:768px) {
+  section article{
+    flex-direction: column;
+  }
+
+  section article p{
+    margin-top: 20px;
+  }
+}

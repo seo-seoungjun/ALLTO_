@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+sitemap: https://allto-you.com/sitemap_final.xml

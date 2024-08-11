@@ -1,0 +1,278 @@
+@media screen and (max-width: 780px) {
+  html {
+    font-size: 35%;
+  }
+
+  .page,
+  .page_black {
+    opacity: 1;
+  }
+
+  header h1 {
+    margin-left: 9rem;
+    font-weight: 500;
+    font-size: 2.6rem;
+    color: #ffffff;
+  }
+
+  header a {
+    text-decoration: none;
+  }
+
+  header a img {
+    width: 1.7rem;
+    height: 1.9rem;
+    margin-right: 1.5px;
+  }
+
+  .logo {
+    width: 3.4rem;
+    height: 3.4rem;
+  }
+
+  header h1 {
+    position: relative;
+    z-index: 4;
+  }
+
+  header h1 img {
+    width: 1.7rem;
+    height: 1.9rem;
+  }
+
+  .menu label {
+    margin-right: 9rem;
+  }
+
+  div[class='slidebar'] {
+    top: 0;
+    right: 0;
+    overflow: visible;
+    height: 100vh;
+    width: 0;
+    display: flex;
+    background-color: #11111b;
+    justify-content: center;
+    opacity: 0;
+  }
+  #submenu {
+    width: 0 !important;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  #submenu a {
+    color: #ffffff !important;
+  }
+
+  #submenu li {
+    margin-bottom: 30px;
+  }
+
+  input[id='menuicon']:checked + label + div {
+    width: 100vw;
+    opacity: 1;
+  }
+
+  input[id='menuicon']:checked + label + div #submenu {
+    width: 100vw !important;
+  }
+
+  #purse {
+    z-index: 3;
+    transform: scale(4, 3) !important;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  #section10 .list-box {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    height: 9rem;
+  }
+
+  header h1 {
+    margin-left: 3rem;
+  }
+
+  .menu label {
+    margin-right: 3rem;
+  }
+
+  .surf {
+    font-size: 15rem;
+  }
+
+  .wave-input {
+    top: -8rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+  }
+
+  #flip {
+    position: initial;
+    width: 23rem;
+    margin: 0 auto;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .miblie-allto {
+    display: inline-block !important;
+  }
+
+  .spanwrap {
+    padding-top: 10%;
+  }
+
+  .sss {
+    padding-bottom: 8%;
+  }
+
+  #section2 {
+    font-size: 1rem;
+  }
+
+  #section3 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    line-height: 0.238rem;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  #section7 p {
+    margin-top: 10%;
+  }
+
+  .slide-inner {
+    text-align: center;
+    position: relative;
+    z-index: 4;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+  }
+
+  .slide-inner .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5 {
+    margin: 90px 5rem;
+    height: 23rem;
+    width: 23rem;
+    border-radius: 50%;
+    line-height: 23rem;
+    font-size: 1.6rem;
+    transition: 0.8s;
+    cursor: initial;
+    background-position: center;
+  }
+
+  .item-a div div {
+    position: absolute !important;
+    border: none !important ;
+    top: 0;
+    left: 0;
+    height: 23rem;
+    width: 23rem;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.8s;
+    background-color: #63f3f4;
+    background-position: center;
+  }
+
+  #section8 .click-purse {
+    font-size: 3.5rem;
+  }
+
+  #play-btn {
+    margin-left: 46%;
+  }
+
+  #pause-btn {
+    margin-left: 46%;
+  }
+  #section10 .list-box {
+    width: 40rem;
+    margin-top: -12rem;
+  }
+
+  #section10 .list-box span span {
+    font-size: 1.7rem;
+  }
+
+  .list-box > span:nth-child(1),
+  .list-box > span:nth-child(2),
+  .list-box > span:nth-child(3),
+  .list-box > span:nth-child(1) span,
+  .list-box > span:nth-child(2) span,
+  .list-box > span:nth-child(3) span {
+    width: 0 !important;
+    height: 0 !important;
+    visibility: hidden;
+  }
+
+  #section10 p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+
+  #section11 div:first-child {
+    font-size: 5rem;
+  }
+  #section11 div:last-child {
+    font-size: 2.5rem;
+  }
+
+  #section12 .goleft {
+    font-size: 5rem;
+  }
+
+  #section12 .goright {
+    font-size: 2.5rem;
+  }
+
+  .contact {
+    font-size: 5rem;
+  }
+}
+
+/* @media screen and (max-width:375px){
+    
+    .slide-inner .item1,.item2,.item3,.item4,.item5{
+        margin: 90px 0rem;
+
+    }
+}
+
+
+@media screen and (max-width:320px){
+    
+    .slide-inner .item1,.item2,.item3,.item4,.item5{
+        margin: 90px 5rem;
+
+    }
+} */

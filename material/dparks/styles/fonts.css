@@ -1,0 +1,38 @@
+/* @font-face{
+    font-family: 'Nanum';
+    font-weight: normal;
+    src: url("NanumFontSetup_TTF_SQUARE/NanumSquare_acB.ttf") format('ttf');
+  }
+  @font-face{
+    font-family: 'Nanum';
+    font-weight: normal;
+    src: url("NanumFontSetup_TTF_SQUARE/NanumSquare_acEB.ttf") format('ttf');
+  } */
+  @font-face{
+    font-family: 'Nanum';
+    font-weight: 300;
+    src: url("NanumFontSetup_TTF_SQUARE/NanumSquare_acL.ttf") format('truetype');
+  }
+  /* @font-face{
+    font-family: 'Nanum';
+    font-weight: normal;
+    src: url("NanumFontSetup_TTF_SQUARE/NanumSquare_acR.ttf") format('ttf');
+  }
+  @font-face{
+    font-family: 'Nanum';
+    font-weight: normal;
+    src: url("NanumFontSetup_TTF_SQUARE/NanumSquareB.ttf") format('ttf');
+  }
+  @font-face{
+    font-family: 'Nanum';
+    font-weight: normal;
+    src: url("NanumFontSetup_TTF_SQUARE/NanumSquareL.ttf") format('ttf');
+  }
+  @font-face{
+    font-family: 'Nanum';
+    font-weight: normal;
+    src: url("NanumFontSetup_TTF_SQUARE/NanumSquareR.ttf") format('ttf');
+  }
+
+
+   */

@@ -1,0 +1,581 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 55%;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #63f3f4;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
+body {
+  color: #ffffff;
+  font-family: 'Inter';
+  /* background-color: #11111b;
+    color:#ffffff;
+    scroll-behavior: smooth;
+    font-family: 'Inter';
+    transition: all 1.6s ease-in-out;  */
+  transition: all 1.6s ease-in-out;
+}
+
+main {
+  position: absolute;
+  width: 100%;
+}
+
+header {
+  overflow: visible;
+  z-index: 100;
+  height: 12rem;
+  /* background-color: #11111b; */
+  width: 100%;
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  /* border-bottom: 1px solid white; */
+  align-items: center;
+  transition: top 1s ease-in-out;
+}
+
+.header-up {
+  top: -12rem;
+}
+
+header h1 {
+  margin-left: 9rem;
+  font-weight: 500;
+  font-size: 2.6rem;
+  color: #ffffff;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a img {
+  width: 1.7rem;
+  height: 1.9rem;
+  margin-right: 1.5px;
+}
+
+.logo {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
+.menu label {
+  margin-right: 9rem;
+}
+
+input[id='menuicon'] + label {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  right: 0px;
+  top: -0.3rem;
+  z-index: 4;
+}
+
+input[id='menuicon'] + label img.logo {
+  transition: all 0.8s ease-in-out;
+}
+
+input[id='menuicon']:checked + label img.logo {
+  transform: rotate(180deg);
+}
+
+div[class='slidebar'] {
+  position: absolute;
+  width: 0px;
+  height: 20px;
+  right: 12rem;
+  top: 4.8rem;
+  transition: all 1.3s ease-in-out;
+  overflow: hidden;
+}
+
+input[id='menuicon']:checked + label + div {
+  width: 390px;
+}
+
+header #submenu {
+  display: flex;
+  position: absolute;
+  width: 390px;
+}
+
+header #submenu li {
+  padding: 0 20px;
+}
+
+header #submenu a:hover {
+  color: #63f3f4 !important;
+  transition: all 0.5s;
+}
+
+header nav ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 300;
+  color: white;
+}
+
+header #submenu .stay {
+  color: #63f3f4;
+  transition: all 0.5s ease-in-out;
+}
+
+header #submenu .not-stay {
+  color: white;
+  transition: all 0.5s;
+}
+
+header #submenu .not-stay.a {
+  color: #11111b;
+  transition: all 0.5s;
+}
+
+header #submenu .not-stay:hover {
+  color: #63f3f4;
+}
+
+section h2 {
+  text-align: center;
+}
+
+.curve {
+  text-align: center;
+  width: 100%;
+  height: 73rem;
+  border-bottom-left-radius: 100rem 35%;
+  border-bottom-right-radius: 100rem 35%;
+  display: flex;
+  background-color: #11111b;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.down-button {
+  width: 4.2rem;
+  height: 3.7rem;
+  top: 85%;
+  margin-top: 30rem;
+}
+
+.curve article {
+  width: 100%;
+}
+
+.curve h2 {
+  padding-top: 25rem;
+  font-size: 4.5rem;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.s1 {
+  position: relative;
+  z-index: 2;
+}
+
+.curve2 {
+  position: absolute;
+  z-index: 1;
+  top: 50rem;
+  width: 100%;
+  height: 53rem;
+  border-bottom-left-radius: 100rem 35%;
+  border-bottom-right-radius: 100rem 35%;
+  display: flex;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+canvas {
+  width: 100%;
+  height: 40rem;
+  position: fixed;
+  top: 24rem;
+  z-index: 5;
+  transition: all 1s ease-in-out;
+  visibility: hidden;
+}
+
+.webgl {
+  height: 678px !important;
+  opacity: 1 !important;
+  position: absolute !important;
+  outline: none;
+  cursor: grab;
+  visibility: visible !important;
+}
+
+.webgl:active {
+  cursor: grabbing;
+}
+
+#header {
+  margin-top: 30rem;
+  height: 100vh;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  opacity: 0;
+}
+@media (max-width: 767px) {
+  #header {
+    opacity: 1;
+  }
+}
+#header {
+  transition: opacity 1s ease-in-out;
+}
+
+#header.showing {
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 767px) {
+  #header.showing {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes nameEnter {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  15% {
+    -webkit-transform: scale(0.92);
+    transform: scale(0.92);
+  }
+  25% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  90% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes nameEnter {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  15% {
+    -webkit-transform: scale(0.92);
+    transform: scale(0.92);
+  }
+  25% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  90% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes nameEnter {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  15% {
+    -webkit-transform: scale(0.92);
+    transform: scale(0.92);
+  }
+  25% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  90% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+#header h2 {
+  margin: 0;
+  font-size: 4.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #header h2 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    -webkit-animation-name: nameEnter;
+    animation-name: nameEnter;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+}
+
+.s2 {
+  position: sticky;
+  top: 8rem;
+}
+
+.s2 h2 {
+  font-size: 3rem;
+  line-height: 2;
+  letter-spacing: 0.15rem;
+  opacity: 0;
+  font-weight: 100;
+  transition: all 2s ease-in-out;
+}
+
+#flip {
+  color: #63f3f4;
+  font-size: 3rem;
+  line-height: 2;
+  letter-spacing: 0.015rem;
+  font-weight: 100;
+  height: 5rem;
+  overflow: hidden;
+  text-align: center;
+  transition: all 1s ease-in-out;
+}
+
+#flip > div > div {
+  height: 4.5rem;
+  margin-bottom: 4.5rem;
+  display: inline-block;
+}
+
+#flip div:first-child {
+  animation: dream 12s infinite;
+  -webkit-animation: dream 12s infinite;
+  -moz-animation: dream 12s infinite;
+}
+
+@keyframes dream {
+  0% {
+    margin-top: -36rem;
+  }
+  5% {
+    margin-top: -27rem;
+  }
+  23% {
+    margin-top: -27rem;
+  }
+  28% {
+    margin-top: -18rem;
+  }
+  48% {
+    margin-top: -18rem;
+  }
+  53% {
+    margin-top: -9rem;
+  }
+  73% {
+    margin-top: -9rem;
+  }
+  78% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -27rem;
+  }
+}
+
+@-webkit-keyframes dream {
+  0% {
+    margin-top: -36rem;
+  }
+  5% {
+    margin-top: -27rem;
+  }
+  23% {
+    margin-top: -27rem;
+  }
+  28% {
+    margin-top: -18rem;
+  }
+  48% {
+    margin-top: -18rem;
+  }
+  53% {
+    margin-top: -9rem;
+  }
+  73% {
+    margin-top: -9rem;
+  }
+  78% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -27rem;
+  }
+}
+
+@-moz-keyframes dream {
+  0% {
+    margin-top: -36rem;
+  }
+  5% {
+    margin-top: -27rem;
+  }
+  23% {
+    margin-top: -27rem;
+  }
+  28% {
+    margin-top: -18rem;
+  }
+  48% {
+    margin-top: -18rem;
+  }
+  53% {
+    margin-top: -9rem;
+  }
+  73% {
+    margin-top: -9rem;
+  }
+  78% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -27rem;
+  }
+}
+/* @keyframes voyager {
+  25%{
+    
+    content: "Strong vision to fulfill a better future"
+    
+  }
+  50%{
+    content: "Creative mind to innovate the existing system"
+  }
+
+75%{
+  content: "And a passion to venture out to the unknown for their dreams"
+}
+
+100%{
+  content: "Are all dream voyagers"
+}
+
+} */
+
+.cloud {
+  position: relative;
+  z-index: 6;
+  text-align: center;
+  top: 100rem;
+  height: 85rem;
+  background-color: #ffffff;
+  color: #11111b;
+}
+
+main .cloud-img {
+  width: 100%;
+  height: 55rem;
+  position: relative;
+  z-index: 10;
+  top: 102rem;
+}
+
+.cloud article {
+  position: relative;
+  opacity: 0;
+  top: 60rem;
+  transition: all 2s ease-in-out;
+}
+
+.cloud-article.show {
+  position: relative;
+  opacity: 1;
+  top: 33rem;
+}
+
+.cloud a {
+  font-size: 2.1rem;
+  color: #63f3f4;
+}
+
+.cloud p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 0.1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #11111b;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  padding: 0.5% 0;
+  margin-left: 1.5rem;
+}

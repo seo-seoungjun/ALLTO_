@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <title>Dparks</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="stylesheet" href="styles/fonts_1.css" />
+    <link rel="stylesheet" href="styles/morris.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
+    <script src="script/morris.min.js"></script>
+    <script src="script/ScrollTrigger.min.js"></script>
+  </head>
+
+  <body>
+    <div class="allto_loding">
+      <img id="allto_lode" src="../../images/Loading-page-finally-end.gif" />
+    </div>
+    <main>
+      <section id="section-1">
+        <img id="dparks" src="image/g555.svg" alt="Dparks" />
+      </section>
+      <section id="section-2-project-overview">
+        <article>
+          <h2>PROJECT OVERVIEW</h2>
+          <p>
+            디팍스는 '디자인 공원은...'이란 브랜드 네임을 기반으로 누구나 편히
+            쉴 수 있는 공원에서, 창의적인 디자인에 대한 상상력을 자유롭게 펼칠
+            수 있는 공간을 만들고자 설립되었습니다. 휴대폰 케이스로 시작해
+            현재는 라이프스타일 브랜드로 제품 카테고리 확장을 앞두고 있는
+            브랜드입니다. 그러나, 디팍스라는 브랜드 자체보다 판매되고 있는 개별
+            상품의 품질이 소비 결정에서 우선 시 되고 있고, 온오프라인 매장의
+            연계성이 부족하여, 소비자들에게 디팍스라는 브랜드에 대한 인식이
+            저조했습니다. 따라서, 소비자들에게 매력적으로 다가갈 수 있는,
+            뚜렷하고 특색있는 디팍스만의 브랜드 이미지 확립이 중요한
+            상황이었습니다. ALLTO는 이러한 디팍스의 라이프스타일 브랜드로써의
+            확장성을 고려하여, 강력한 브랜드 컨셉을 기반으로, 통일된 디팍스의
+            브랜드 아이덴티티를 새롭게 정립하였습니다.
+          </p>
+          <p>MARKET RESEARCH RESULT</p>
+          <p>Research on 50 people, Random Sampling, Age Range</p>
+        </article>
+        <div class="Market-research-chart-wrap">
+          <div class="chart-inner">
+            <span>BRAND IDENTITY REACTION - LOGO</span>
+            <span>Which brand does this logo remind you of?</span>
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              id="myChart1"
+            ></div>
+          </div>
+          <div class="chart-inner">
+            <span>ONLINE AND OFFLINE SHOP CONNECTIVITY </span>
+            <span>Do you know the offline shop of this website?</span>
+            <div
+              data-aos="zoom-in "
+              data-aos-duration="1500"
+              id="myChart2"
+            ></div>
+          </div>
+          <div class="chart-inner">
+            <span>REASON FOR CONSUMPTION</span>
+            <span>Why do you purchase products from DPARKS?</span>
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              id="myChart3"
+            ></div>
+          </div>
+        </div>
+      </section>
+      <section id="section-3-hoverGallery">
+        <div class="hoverGallery-wrap">
+          <div class="hoverGallery-inner" id="inner-1">
+            <div id="inner-1-item1">
+              <img id="sns" src="image/SNS.png" alt="" />
+              <img
+                id="background-img1"
+                class="background-img"
+                src="image/hover_snsimg.png"
+                alt=""
+              />
+            </div>
+
+            <div id="inner-1-item2">
+              <img id="product" src="image/PRODUCT PHOTOGRAPHY.png" alt="" />
+              <img
+                id="background-img2"
+                class="background-img"
+                src="image/hover_productimg.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="hoverGallery-inner" id="inner-2">
+            <div id="inner-2-item1">
+              <img id="website" src="image/WEBSITE.png" alt="" />
+              <img
+                id="background-img3"
+                class="background-img"
+                src="image/hover_websiteimg.png"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="hoverGallery-inner" id="inner-3">
+            <div id="inner-3-item1">
+              <img id="offline" src="image/OFFLINE SHOP.png" alt="" />
+              <img
+                id="background-img4"
+                class="background-img"
+                src="image/hover_offlineshopimg.png"
+                alt=""
+              />
+            </div>
+            <div id="inner-3-item2">
+              <img id="brand" src="image/BRAND LOGO.png" alt="" />
+              <img
+                id="background-img5"
+                class="background-img"
+                src="image/hover_brandlogoimg.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section-4-project-goal">
+        <article>
+          <h2>PROJECT GOAL</h2>
+          <p>
+            디팍스는 현재까지 명확하지 않은 브랜드 가치의 표현으로 소비 결정 시
+            소비자들이 브랜드보다 휴대폰 케이스와 같은 개별 상품의 품질을 우선시
+            하고, 온오프라인 매장에서 소비자들이 제품 구매를 하더라도 디팍스라는
+            브랜드를 인지하지 못하는 문제점을 겪고 있었습니다. 따라서, ALLTO는
+            브랜드의 모티프가 되었던, 누구나 편하고 자유롭게 자신의 창의적인
+            라이프스타일을 그려나갈 수 있는 디팍스만의 '공원'을 새롭게 정의하여,
+            라이프스타일 브랜드로의 확장성을 고려한 리브랜딩을 진행했습니다.
+          </p>
+          <div class="container">
+            <div id="brand-situation" class="container-inner">
+              <h3>BRAND SITUATION</h3>
+              <ul>
+                <li>
+                  1. 개별 상품의 품질보다 우선시 될 수 <br />
+                  있는 브랜드 자체의 셀링 포인트가 <br />
+                  없다.
+                </li>
+                <li>
+                  2. 라이프스타일 브랜드로써 디팍스의 <br />
+                  여러 제품을 연결시킬 핵심 브랜드<br />
+                  아이덴티티가 부재하다.
+                </li>
+                <li>
+                  3. 온오프라인에서 고객들이 디팍스를<br />
+                  인지할만한 소비자 경험과 디자인의<br />
+                  연계성이 부족하다.
+                </li>
+              </ul>
+            </div>
+            <div class="container-inner">
+              <h3>PROJECT GOAL</h3>
+              <ul>
+                <li>
+                  G1. 뚜렷하고 특색있는 브랜드 가치의 <br />
+                  표현으로 매력적인 브랜드 정체성<br />
+                  확립
+                </li>
+                <li>
+                  G2. 제품 카테고리 확장성을 고려한 <br />
+                  통일된 브랜드 컨셉, 슬로건 등<br />
+                  브랜드 아이덴티티 재정립
+                </li>
+                <li>
+                  G3. 브랜드 디자인 요소 재정립 및<br />
+                  적용 방안 기획 & 아이덴티티와<br />
+                  연결되는 브랜드 전략 구축
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="parks-imgwrap">
+        <img
+          id="parks-imgwrap-text-1"
+          src="image/THE PARK FOR YOUR .png"
+          alt=""
+        />
+        <img id="parks" src="image/art final.png" alt="" />
+        <img
+          id="parks-imgwrap-text-2"
+          src="image/CREATIVE SPIRIT, DPARKS.png"
+          alt=""
+        />
+      </section>
+      <section id="section-5-brand-concept">
+        <article>
+          <h2>BRAND CONCEPT</h2>
+          <p>
+            디팍스의 브랜드 본질인 '공원'은 내부 요인에 맞추어, 외부 정체성이
+            변화하는 특성을 가진 공간입니다. 우리는 디팍스가 이런한 공간적
+            특징을 닮아서, 브랜드를 경험하러 온 고객들의 라이프 스타일을 이루는
+            주 활동에 따라 다양한 미적 감각과 경험을 제공함으로써, 그에 맞게
+            변화할 수 있는 잠재력을 가지고 있다고 생각했습니다. 따라서, 디팍스의
+            공원을 어떠한 CUSTOMER SPIRIT이 담기는지에 따라 성향이 달라지는
+            물리적 공간으로 정의하여, 브랜드 컨셉인 'THE PARK FOR YOUR CREATIVE
+            SPIRIT'으로 확장시켰습니다.
+          </p>
+        </article>
+        <div class="section-5-table-wrap-1">
+          <img id="section-5-table1" src="image/g45.svg" alt="" />
+          <img
+            data-aos-duration="1000"
+            data-aos="fade-down"
+            id="section-5-table2"
+            src="image/g46.svg"
+            alt=""
+          />
+        </div>
+        <div class="video-container">
+          <div class="delightfull-box">
+            <video src="video/DPARKS 2.mp4" muted loop autoplay></video>
+          </div>
+          <div class="mph-box">
+            <video src="video/dparks 3.mp4" muted loop autoplay></video>
+          </div>
+        </div>
+        <div class="section-5-table-wrap-2">
+          <img
+            data-aos-duration="1000"
+            data-aos="fade-down"
+            id="section-5-table3"
+            src="image/g48.svg"
+            alt=""
+          />
+          <img id="section-5-table4" src="image/g49.svg" alt="" />
+        </div>
+        <p>THE PARK FOR YOUR CREATIVE SPIRIT</p>
+      </section>
+      <section id="section-6-brand-mission"></section>
+      <section id="section-7-brand-identity">
+        <article>
+          <h2>BRAND IDENTITY</h2>
+          <p>
+            디팍스의 브랜드 컨셉인 'THE PARK FOR YOUR CREATIVE SPIRIT'을
+            고객들이 디팍스를 경험하고 접할 수 있는 모든 요소에서 느낄 수 있도록
+            전체적인 브랜드 아이덴티티를 새롭게 정의했습니다. BRAND LOGO, COLOR
+            SCHEME, TYPOGRAPHY 부터 다양한 특색 있는 라이프스타일을 가진
+            고객들이 자신이 원하는 디자인을 마음껏 즐길 수 있게 PRODUCT
+            PHOTOGRAPHY와 PRODUCT CATEGORIZING까지 재정립해 강력하지만 일관된
+            브랜드 아이덴티티를 구축했습니다.
+          </p>
+        </article>
+        <div class="brand-identitiy-list" data-trigger1>
+          <div class="bi-wrap-1">
+            <div data-trigger1>
+              <img id="bi-wrap-1-text" src="image/TEXT_BRAND LOGO.png" alt="" />
+              <img id="bi-wrap-background" src="image/BRAND LOGO.gif" alt="" />
+            </div>
+            <div data-trigger1>
+              <img
+                id="bi-wrap-1-text"
+                src="image/TEXT_BRAND PHOTOGRAPHY.png"
+                alt=""
+              />
+              <img
+                id="bi-wrap-background"
+                src="image/brand photography.gif"
+                alt=""
+              />
+            </div>
+            <div data-trigger1>
+              <img
+                id="bi-wrap-1-text"
+                src="image/TEXT_BRAND COLOR.png"
+                alt=""
+              />
+              <img id="bi-wrap-background" src="image/BRAND COLOR.gif" alt="" />
+            </div>
+          </div>
+          <div class="bi-wrap-2">
+            <div data-trigger1>
+              <img
+                id="bi-wrap-2-text"
+                src="image/TEXT_PRODUCT CATEGORIZING.png"
+                alt=""
+              />
+              <img
+                id="bi-wrap-background"
+                src="image/product categorizing.gif"
+                alt=""
+              />
+            </div>
+            <div data-trigger1>
+              <img
+                id="bi-wrap-2-text"
+                src="image/TEXT_BRAND TYPOGRAPHY.png"
+                alt=""
+              />
+              <img
+                id="bi-wrap-background"
+                src="image/brand typography.gif"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section-1">
+        <img id="dparks" src="image/g555.svg" alt="Dparks" />
+      </section>
+      <section id="ALLTO-contact">
+        <div>
+          <p style="font-family: 'Inter'">A CREATIVE WAVE ALL TO YOU</p>
+          <p style="font-family: 'Inter'">CREATIVE STUDIO ALLTO</p>
+        </div>
+        <div class="ALLTO-logowrap">
+          <img src="image/ALLTO_logo.svg" alt="" />
+        </div>
+        <div>
+          <p style="font-family: 'Inter'">LET US HEAR YOUR VOICE</p>
+          <a href=" https://allto-you.com" style="font-family: 'Inter'">
+            https://allto-you.com</a
+          >
+          <p style="font-family: 'Inter'">tjtjdwns1860@naver.com</p>
+        </div>
+      </section>
+    </main>
+    <script src="script/dparks.js"></script>
+  </body>
+</html>

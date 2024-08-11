@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 55%;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #ffffff;
+  color: #11111b;
+  scroll-behavior: smooth;
+  font-family: 'Inter';
+}
+
+main {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+header {
+  height: 12rem;
+  /* background-color: #11111b; */
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  /* border-bottom: 1px solid white; */
+  align-items: center;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.header-up {
+  top: -12rem;
+}
+
+header h1 {
+  margin-left: 9rem;
+  font-weight: 500;
+  font-size: 2.6rem;
+  color: #11111b;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a img {
+  width: 1.7rem;
+  height: 1.9rem;
+  margin-right: 1.5px;
+}
+
+.logo {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
+.menu label {
+  margin-right: 9rem;
+}
+
+input[id='menuicon'] + label {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  top: -0.3rem;
+  right: 0px;
+  z-index: 100;
+}
+
+input[id='menuicon'] + label img.logo {
+  transition: all 0.8s ease-in-out;
+}
+
+input[id='menuicon']:checked + label img.logo {
+  transform: rotate(180deg);
+}
+
+div[class='slidebar'] {
+  position: absolute;
+  width: 0px;
+  height: 20px;
+  right: 12rem;
+  top: 4.8rem;
+  transition: all 1.3s ease-in-out;
+  overflow: hidden;
+}
+
+input[id='menuicon']:checked + label + .slidebar {
+  width: 390px;
+}
+
+header #submenu {
+  display: flex;
+  position: absolute;
+  width: 390px;
+}
+
+header #submenu li {
+  padding: 0 20px;
+}
+
+header #submenu a:hover {
+  color: #63f3f4 !important;
+  transition: all 0.5s;
+}
+
+header nav ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 300;
+  color: #11111b;
+}
+
+header #submenu .stay {
+  color: #63f3f4;
+  transition: all 0.5s ease-in-out;
+}
+
+header #submenu .not-stay {
+  color: #11111b;
+  transition: all 0.5s;
+}
+
+header #submenu .not-stay.a {
+  color: #11111b;
+  transition: all 0.5s;
+}
+
+header #submenu .not-stay:hover {
+  color: #63f3f4;
+}
+/* .curve{
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%; 
+    height: 700px;
+    border-bottom-left-radius: 38%;
+    border-bottom-right-radius: 38%;  
+    display: flex;
+    align-items: center;
+}
+
+.curve article{
+    width: 100%;
+}
+
+ .curve h2{
+    font-size: 45px;
+    font-weight: 100;
+    color: #11111b;
+    line-height: 2.22;
+    letter-spacing: 2.25px;
+}
+
+.s1{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.s2{
+    position: absolute;
+    top: 450px;
+    z-index: 1;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+h2 {
+  margin-top: 29rem;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 100;
+  color: #11111b;
+  line-height: 2.22;
+  letter-spacing: 0.025rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  background-color: #ffffff;
+  z-index: 3;
+  top: 23%;
+  left: 100%;
+  width: 40%;
+  height: 77%;
+  transition: all 1.5s ease-in-out;
+  /* justify-content: center; */
+}
+
+.container.visible {
+  left: 60%;
+}
+
+form {
+  margin-left: 17%;
+  margin-top: 25%;
+}
+
+form .label {
+  font-size: 1.4rem;
+}
+
+form input {
+  width: 110%;
+  margin-top: 10px;
+  margin-bottom: 53px;
+  outline: none;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 1px solid #11111b;
+  opacity: 0.65;
+}
+
+form #submit {
+  display: none;
+}
+
+textarea {
+  margin-top: 20px;
+  width: 110%;
+  height: 15%;
+  border: 0.25rem solid #11111b;
+  opacity: 0.65;
+}
+
+form button {
+  margin-top: 20px;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #11111b;
+  width: 19%;
+  height: 2.5%;
+}
+footer {
+  margin-top: 30rem;
+  position: relative;
+  z-index: 999;
+  bottom: 0%;
+  background-color: #11111b;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  padding: 0.5%;
+  margin-left: 10px;
+}

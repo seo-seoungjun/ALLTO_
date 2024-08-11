@@ -1,0 +1,163 @@
+@media screen and (max-width:780px){
+    
+    html{
+        font-size: 40%;
+    }
+
+    header h1 {
+        position: relative;
+        z-index: 4;
+    }
+
+    header h1 img{
+        width: 1.7rem;
+        height: 1.9rem;
+    }
+
+
+    div[class="slidebar"]{
+        top:0;
+        right: 0;
+        overflow: visible;
+        height: 100vh;
+        display: flex;
+        background-color: #11111b;
+        justify-content: center;
+        opacity: 0;
+    }
+    #submenu{
+        width: 0 !important;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        
+    }
+
+    #submenu a{
+        color: #ffffff !important;
+    }
+
+    #submenu li{
+        margin-bottom: 30px;
+    }
+
+    input[id="menuicon"]:checked+label+div{
+        width: 100vw !important;
+        opacity: 1;
+    }
+
+    input[id="menuicon"]:checked+label+div #submenu{
+        width: 100vw !important;
+    }
+
+}
+
+@media screen and (max-width:450px){
+
+    header{
+        height: 9rem;
+    }
+
+    header h1 {
+        margin-left: 3rem;
+    }
+
+    .menu label{
+        margin-right: 3rem;
+    }  
+
+    .curve h2{
+        font-size: 3rem;
+    }
+
+
+    
+
+    .curve2.expansion{
+
+        height: 115rem;
+    
+    }
+
+    .curve2 h2{
+        font-size: 1.7rem;
+
+    }
+    
+    .curve3 h2 {
+        font-size: 1.7rem;
+
+    }
+
+    .curve4 h2{
+        font-size: 1.7rem;
+
+    }
+
+    .curve2.expansion h2{
+        font-size: 1.9rem;
+
+    }
+    
+    .curve3.expansion h2 {
+        font-size: 1.9rem;
+
+    }
+
+    .curve4.expansion h2{
+        font-size: 1.9rem;
+
+    }
+
+    .curve p{
+        width: 80%;
+        font-size: 1.5rem !important;
+        margin: 0 auto;
+    }
+
+    .curve br {
+        display: none;
+    }
+
+    .curve2 p{
+        text-align: left;
+        width: 80%;
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+
+    .curve3 p{
+        width: 80%;
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+
+    .curve4 .br{
+        display: none;
+    }
+
+    .curve4 p{
+        width: 80%;
+        text-align: left;
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+ 
+    .br{
+        display: none;
+    }
+
+    .translation{
+        overflow: hidden;
+        position: absolute;
+        top:3.5rem;
+        right: 6rem;
+        margin-right: 1.7rem;
+      }
+
+    .curve .p1{
+        margin-top:15rem;
+    }
+}

@@ -1,0 +1,7 @@
+.env
+node_modules
+lightslider-master
+images
+Media
+/script/data.js
+.DS_Store

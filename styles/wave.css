@@ -1,0 +1,2908 @@
+@-webkit-keyframes wave {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  5% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  10% {
+    -webkit-transform: translateY(-18px);
+            transform: translateY(-18px);
+  }
+  15% {
+    -webkit-transform: translateY(-27px);
+            transform: translateY(-27px);
+  }
+  20% {
+    -webkit-transform: translateY(-29px);
+            transform: translateY(-29px);
+  }
+  25% {
+    -webkit-transform: translateY(-33px);
+            transform: translateY(-33px);
+  }
+  30% {
+    -webkit-transform: translateY(-29px);
+            transform: translateY(-29px);
+  }
+  35% {
+    -webkit-transform: translateY(-27px);
+            transform: translateY(-27px);
+  }
+  40% {
+    -webkit-transform: translateY(-18px);
+            transform: translateY(-18px);
+  }
+  45% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  55% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  60% {
+    -webkit-transform: translateY(18px);
+            transform: translateY(18px);
+  }
+  65% {
+    -webkit-transform: translateY(27px);
+            transform: translateY(27px);
+  }
+  70% {
+    -webkit-transform: translateY(29px);
+            transform: translateY(29px);
+  }
+  75% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  80% {
+    -webkit-transform: translateY(29px);
+            transform: translateY(29px);
+  }
+  85% {
+    -webkit-transform: translateY(27px);
+            transform: translateY(27px);
+  }
+  90% {
+    -webkit-transform: translateY(18px);
+            transform: translateY(18px);
+  }
+  95% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes wave {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  5% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  10% {
+    -webkit-transform: translateY(-18px);
+            transform: translateY(-18px);
+  }
+  15% {
+    -webkit-transform: translateY(-27px);
+            transform: translateY(-27px);
+  }
+  20% {
+    -webkit-transform: translateY(-29px);
+            transform: translateY(-29px);
+  }
+  25% {
+    -webkit-transform: translateY(-33px);
+            transform: translateY(-33px);
+  }
+  30% {
+    -webkit-transform: translateY(-29px);
+            transform: translateY(-29px);
+  }
+  35% {
+    -webkit-transform: translateY(-27px);
+            transform: translateY(-27px);
+  }
+  40% {
+    -webkit-transform: translateY(-18px);
+            transform: translateY(-18px);
+  }
+  45% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  55% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  60% {
+    -webkit-transform: translateY(18px);
+            transform: translateY(18px);
+  }
+  65% {
+    -webkit-transform: translateY(27px);
+            transform: translateY(27px);
+  }
+  70% {
+    -webkit-transform: translateY(29px);
+            transform: translateY(29px);
+  }
+  75% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  80% {
+    -webkit-transform: translateY(29px);
+            transform: translateY(29px);
+  }
+  85% {
+    -webkit-transform: translateY(27px);
+            transform: translateY(27px);
+  }
+  90% {
+    -webkit-transform: translateY(18px);
+            transform: translateY(18px);
+  }
+  95% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes wave2 {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  5% {
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px);
+  }
+  10% {
+    -webkit-transform: translateY(13px);
+            transform: translateY(13px);
+  }
+  15% {
+    -webkit-transform: translateY(17px);
+            transform: translateY(17px);
+  }
+  20% {
+    -webkit-transform: translateY(19px);
+            transform: translateY(19px);
+  }
+  25% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  30% {
+    -webkit-transform: translateY(19px);
+            transform: translateY(19px);
+  }
+  35% {
+    -webkit-transform: translateY(17px);
+            transform: translateY(17px);
+  }
+  40% {
+    -webkit-transform: translateY(13px);
+            transform: translateY(13px);
+  }
+  45% {
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  55% {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+  }
+  60% {
+    -webkit-transform: translateY(-13px);
+            transform: translateY(-13px);
+  }
+  65% {
+    -webkit-transform: translateY(-17px);
+            transform: translateY(-17px);
+  }
+  70% {
+    -webkit-transform: translateY(-19px);
+            transform: translateY(-19px);
+  }
+  75% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  80% {
+    -webkit-transform: translateY(-19px);
+            transform: translateY(-19px);
+  }
+  85% {
+    -webkit-transform: translateY(-17px);
+            transform: translateY(-17px);
+  }
+  90% {
+    -webkit-transform: translateY(-13px);
+            transform: translateY(-13px);
+  }
+  95% {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes wave2 {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  5% {
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px);
+  }
+  10% {
+    -webkit-transform: translateY(13px);
+            transform: translateY(13px);
+  }
+  15% {
+    -webkit-transform: translateY(17px);
+            transform: translateY(17px);
+  }
+  20% {
+    -webkit-transform: translateY(19px);
+            transform: translateY(19px);
+  }
+  25% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  30% {
+    -webkit-transform: translateY(19px);
+            transform: translateY(19px);
+  }
+  35% {
+    -webkit-transform: translateY(17px);
+            transform: translateY(17px);
+  }
+  40% {
+    -webkit-transform: translateY(13px);
+            transform: translateY(13px);
+  }
+  45% {
+    -webkit-transform: translateY(6px);
+            transform: translateY(6px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  55% {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+  }
+  60% {
+    -webkit-transform: translateY(-13px);
+            transform: translateY(-13px);
+  }
+  65% {
+    -webkit-transform: translateY(-17px);
+            transform: translateY(-17px);
+  }
+  70% {
+    -webkit-transform: translateY(-19px);
+            transform: translateY(-19px);
+  }
+  75% {
+    -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+  80% {
+    -webkit-transform: translateY(-19px);
+            transform: translateY(-19px);
+  }
+  85% {
+    -webkit-transform: translateY(-17px);
+            transform: translateY(-17px);
+  }
+  90% {
+    -webkit-transform: translateY(-13px);
+            transform: translateY(-13px);
+  }
+  95% {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+.char1 {
+  margin-right: 10px;
+}
+
+.char2 {
+  margin-right: 10px;
+}
+
+.char3 {
+  margin-right: 10px;
+}
+
+.char4 {
+  margin-right: 10px;
+}
+
+.char5 {
+  margin-right: 10px;
+}
+
+.char6 {
+  margin-right: 10px;
+}
+
+.char7 {
+  margin-right: 10px;
+}
+
+.char8 {
+  margin-right: 10px;
+}
+
+.char9 {
+  margin-right: 10px;
+}
+
+.char10 {
+  margin-right: 10px;
+}
+
+.char11 {
+  margin-right: 10px;
+}
+
+.char12 {
+  margin-right: 10px;
+}
+
+.char13 {
+  margin-right: 10px;
+}
+
+.char14 {
+  margin-right: 10px;
+}
+
+.char15 {
+  margin-right: 10px;
+}
+
+.char16 {
+  margin-right: 10px;
+}
+
+.char17 {
+  margin-right: 10px;
+}
+
+.char18 {
+  margin-right: 10px;
+}
+
+.char19 {
+  margin-right: 10px;
+}
+
+.char20 {
+  margin-right: 10px;
+}
+
+.char21 {
+  margin-right: 10px;
+}
+
+.char22 {
+  margin-right: 10px;
+}
+
+.char23 {
+  margin-right: 10px;
+}
+
+.char24 {
+  margin-right: 10px;
+}
+
+.char25 {
+  margin-right: 10px;
+}
+
+.char26 {
+  margin-right: 10px;
+}
+
+.char27 {
+  margin-right: 10px;
+}
+
+.char28 {
+  margin-right: 10px;
+}
+
+.char29 {
+  margin-right: 10px;
+}
+
+.char30 {
+  margin-right: 10px;
+}
+
+.char31 {
+  margin-right: 10px;
+}
+
+.char32 {
+  margin-right: 10px;
+}
+
+.char33 {
+  margin-right: 10px;
+}
+
+.char34 {
+  margin-right: 10px;
+}
+
+.char35 {
+  margin-right: 10px;
+}
+
+.char36 {
+  margin-right: 10px;
+}
+
+.char37 {
+  margin-right: 10px;
+}
+
+.char38 {
+  margin-right: 10px;
+}
+
+.char39 {
+  margin-right: 10px;
+}
+
+.char40 {
+  margin-right: 10px;
+}
+
+.char41 {
+  margin-right: 10px;
+}
+
+.char42 {
+  margin-right: 10px;
+}
+
+.char43 {
+  margin-right: 10px;
+}
+
+.char44 {
+  margin-right: 10px;
+}
+
+.char45 {
+  margin-right: 10px;
+}
+
+.char46 {
+  margin-right: 10px;
+}
+
+.char47 {
+  margin-right: 10px;
+}
+
+.char48 {
+  margin-right: 10px;
+}
+
+.char49 {
+  margin-right: 10px;
+}
+
+.char50 {
+  margin-right: 10px;
+}
+
+.char51 {
+  margin-right: 10px;
+}
+
+.char52 {
+  margin-right: 10px;
+}
+
+.char53 {
+  margin-right: 10px;
+}
+
+.char54 {
+  margin-right: 10px;
+}
+
+.char55 {
+  margin-right: 10px;
+}
+
+.char56 {
+  margin-right: 10px;
+}
+
+.char57 {
+  margin-right: 10px;
+}
+
+.char58 {
+  margin-right: 10px;
+}
+
+.char59 {
+  margin-right: 10px;
+}
+
+.char60 {
+  margin-right: 10px;
+}
+
+.char61 {
+  margin-right: 10px;
+}
+
+.char62 {
+  margin-right: 10px;
+}
+
+.char63 {
+  margin-right: 10px;
+}
+
+.char64 {
+  margin-right: 10px;
+}
+
+.char65 {
+  margin-right: 10px;
+}
+
+.char66 {
+  margin-right: 10px;
+}
+
+.char67 {
+  margin-right: 10px;
+}
+
+.char68 {
+  margin-right: 10px;
+}
+
+.char69 {
+  margin-right: 10px;
+}
+
+.char70 {
+  margin-right: 10px;
+}
+
+.char71 {
+  margin-right: 10px;
+}
+
+.char72 {
+  margin-right: 10px;
+}
+
+.char73 {
+  margin-right: 10px;
+}
+
+.char74 {
+  margin-right: 10px;
+}
+
+.char75 {
+  margin-right: 10px;
+}
+
+.char76 {
+  margin-right: 10px;
+}
+
+.char77 {
+  margin-right: 10px;
+}
+
+.char78 {
+  margin-right: 10px;
+}
+
+.char79 {
+  margin-right: 10px;
+}
+
+.char80 {
+  margin-right: 10px;
+}
+
+.char81 {
+  margin-right: 10px;
+}
+
+.char82 {
+  margin-right: 10px;
+}
+
+.char83 {
+  margin-right: 10px;
+}
+
+.char84 {
+  margin-right: 10px;
+}
+
+.char85 {
+  margin-right: 10px;
+}
+
+.char86 {
+  margin-right: 10px;
+}
+
+.char87 {
+  margin-right: 10px;
+}
+
+.char88 {
+  margin-right: 10px;
+}
+
+.char89 {
+  margin-right: 10px;
+}
+
+.char90 {
+  margin-right: 10px;
+}
+
+.char91 {
+  margin-right: 10px;
+}
+
+.char92 {
+  margin-right: 10px;
+}
+
+.char93 {
+  margin-right: 10px;
+}
+
+.char94 {
+  margin-right: 10px;
+}
+
+.char95 {
+  margin-right: 10px;
+}
+
+.char96 {
+  margin-right: 10px;
+}
+
+.char97 {
+  margin-right: 10px;
+}
+
+.char98 {
+  margin-right: 10px;
+}
+
+.char99 {
+  margin-right: 10px;
+}
+
+.char100 {
+  margin-right: 10px;
+}
+
+.char101 {
+  margin-right: 10px;
+}
+
+.char102 {
+  margin-right: 10px;
+}
+
+.char103 {
+  margin-right: 10px;
+}
+
+.char104 {
+  margin-right: 10px;
+}
+
+.char105 {
+  margin-right: 10px;
+}
+
+.char106 {
+  margin-right: 10px;
+}
+
+.char107 {
+  margin-right: 10px;
+}
+
+.char108 {
+  margin-right: 10px;
+}
+
+.char109 {
+  margin-right: 10px;
+}
+
+.char110 {
+  margin-right: 10px;
+}
+
+.char111 {
+  margin-right: 10px;
+}
+
+.char112 {
+  margin-right: 10px;
+}
+
+.char113 {
+  margin-right: 10px;
+}
+
+.char114 {
+  margin-right: 10px;
+}
+
+.char115 {
+  margin-right: 10px;
+}
+
+.char116 {
+  margin-right: 10px;
+}
+
+.char117 {
+  margin-right: 10px;
+}
+
+.char118 {
+  margin-right: 10px;
+}
+
+.char119 {
+  margin-right: 10px;
+}
+
+.char120 {
+  margin-right: 10px;
+}
+
+.char121 {
+  margin-right: 10px;
+}
+
+.char122 {
+  margin-right: 10px;
+}
+
+.char123 {
+  margin-right: 10px;
+}
+
+.char124 {
+  margin-right: 10px;
+}
+
+.char125 {
+  margin-right: 10px;
+}
+
+.char126 {
+  margin-right: 10px;
+}
+
+.char127 {
+  margin-right: 10px;
+}
+
+.char128 {
+  margin-right: 10px;
+}
+
+.char129 {
+  margin-right: 10px;
+}
+
+.char130 {
+  margin-right: 10px;
+}
+
+.char131 {
+  margin-right: 10px;
+}
+
+.char132 {
+  margin-right: 10px;
+}
+
+.char133 {
+  margin-right: 10px;
+}
+
+.char134 {
+  margin-right: 10px;
+}
+
+.char135 {
+  margin-right: 10px;
+}
+
+.char136 {
+  margin-right: 10px;
+}
+
+.char137 {
+  margin-right: 10px;
+}
+
+.char138 {
+  margin-right: 10px;
+}
+
+.char139 {
+  margin-right: 10px;
+}
+
+.char140 {
+  margin-right: 10px;
+}
+
+.char141 {
+  margin-right: 10px;
+}
+
+.char142 {
+  margin-right: 10px;
+}
+
+.char143 {
+  margin-right: 10px;
+}
+
+.char144 {
+  margin-right: 10px;
+}
+
+.char145 {
+  margin-right: 10px;
+}
+
+.char146 {
+  margin-right: 10px;
+}
+
+.char147 {
+  margin-right: 10px;
+}
+
+.char148 {
+  margin-right: 10px;
+}
+
+.char149 {
+  margin-right: 10px;
+}
+
+.char150 {
+  margin-right: 10px;
+}
+
+.char151 {
+  margin-right: 10px;
+}
+
+.char152 {
+  margin-right: 10px;
+}
+
+.char153 {
+  margin-right: 10px;
+}
+
+.char154 {
+  margin-right: 10px;
+}
+
+.char155 {
+  margin-right: 10px;
+}
+
+.char156 {
+  margin-right: 10px;
+}
+
+.char157 {
+  margin-right: 10px;
+}
+
+.char158 {
+  margin-right: 10px;
+}
+
+.char159 {
+  margin-right: 10px;
+}
+
+.char160 {
+  margin-right: 10px;
+}
+
+.start-wave .char1 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -50ms;
+          animation: wave 1.5s linear infinite -50ms;
+}
+
+.start-wave .char2 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -100ms;
+          animation: wave 1.5s linear infinite -100ms;
+}
+
+.start-wave .char3 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -150ms;
+          animation: wave 1.5s linear infinite -150ms;
+}
+
+.start-wave .char4 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -200ms;
+          animation: wave 1.5s linear infinite -200ms;
+}
+
+.start-wave .char5 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -250ms;
+          animation: wave 1.5s linear infinite -250ms;
+}
+
+.start-wave .char6 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -300ms;
+          animation: wave 1.5s linear infinite -300ms;
+}
+
+.start-wave .char7 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -350ms;
+          animation: wave 1.5s linear infinite -350ms;
+}
+
+.start-wave .char8 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -400ms;
+          animation: wave 1.5s linear infinite -400ms;
+}
+
+.start-wave .char9 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -450ms;
+          animation: wave 1.5s linear infinite -450ms;
+}
+
+.start-wave .char10 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -500ms;
+          animation: wave 1.5s linear infinite -500ms;
+}
+
+.start-wave .char11 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -550ms;
+          animation: wave 1.5s linear infinite -550ms;
+}
+
+.start-wave .char12 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -600ms;
+          animation: wave 1.5s linear infinite -600ms;
+}
+
+.start-wave .char13 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -650ms;
+          animation: wave 1.5s linear infinite -650ms;
+}
+
+.start-wave .char14 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -700ms;
+          animation: wave 1.5s linear infinite -700ms;
+}
+
+.start-wave .char15 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -750ms;
+          animation: wave 1.5s linear infinite -750ms;
+}
+
+.start-wave .char16 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -800ms;
+          animation: wave 1.5s linear infinite -800ms;
+}
+
+.start-wave .char17 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -850ms;
+          animation: wave 1.5s linear infinite -850ms;
+}
+
+.start-wave .char18 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -900ms;
+          animation: wave 1.5s linear infinite -900ms;
+}
+
+.start-wave .char19 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -950ms;
+          animation: wave 1.5s linear infinite -950ms;
+}
+
+.start-wave .char20 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1000ms;
+          animation: wave 1.5s linear infinite -1000ms;
+}
+
+.start-wave .char21 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1050ms;
+          animation: wave 1.5s linear infinite -1050ms;
+}
+
+.start-wave .char22 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1100ms;
+          animation: wave 1.5s linear infinite -1100ms;
+}
+
+.start-wave .char23 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1150ms;
+          animation: wave 1.5s linear infinite -1150ms;
+}
+
+.start-wave .char24 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1200ms;
+          animation: wave 1.5s linear infinite -1200ms;
+}
+
+.start-wave .char25 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1250ms;
+          animation: wave 1.5s linear infinite -1250ms;
+}
+
+.start-wave .char26 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1300ms;
+          animation: wave 1.5s linear infinite -1300ms;
+}
+
+.start-wave .char27 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1350ms;
+          animation: wave 1.5s linear infinite -1350ms;
+}
+
+.start-wave .char28 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1400ms;
+          animation: wave 1.5s linear infinite -1400ms;
+}
+
+.start-wave .char29 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1450ms;
+          animation: wave 1.5s linear infinite -1450ms;
+}
+
+.start-wave .char30 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1500ms;
+          animation: wave 1.5s linear infinite -1500ms;
+}
+
+.start-wave .char31 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1550ms;
+          animation: wave 1.5s linear infinite -1550ms;
+}
+
+.start-wave .char32 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1600ms;
+          animation: wave 1.5s linear infinite -1600ms;
+}
+
+.start-wave .char33 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1650ms;
+          animation: wave 1.5s linear infinite -1650ms;
+}
+
+.start-wave .char34 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1700ms;
+          animation: wave 1.5s linear infinite -1700ms;
+}
+
+.start-wave .char35 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1750ms;
+          animation: wave 1.5s linear infinite -1750ms;
+}
+
+.start-wave .char36 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1800ms;
+          animation: wave 1.5s linear infinite -1800ms;
+}
+
+.start-wave .char37 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1850ms;
+          animation: wave 1.5s linear infinite -1850ms;
+}
+
+.start-wave .char38 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1900ms;
+          animation: wave 1.5s linear infinite -1900ms;
+}
+
+.start-wave .char39 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -1950ms;
+          animation: wave 1.5s linear infinite -1950ms;
+}
+
+.start-wave .char40 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2000ms;
+          animation: wave 1.5s linear infinite -2000ms;
+}
+
+.start-wave .char41 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2050ms;
+          animation: wave 1.5s linear infinite -2050ms;
+}
+
+.start-wave .char42 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2100ms;
+          animation: wave 1.5s linear infinite -2100ms;
+}
+
+.start-wave .char43 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2150ms;
+          animation: wave 1.5s linear infinite -2150ms;
+}
+
+.start-wave .char44 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2200ms;
+          animation: wave 1.5s linear infinite -2200ms;
+}
+
+.start-wave .char45 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2250ms;
+          animation: wave 1.5s linear infinite -2250ms;
+}
+
+.start-wave .char46 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2300ms;
+          animation: wave 1.5s linear infinite -2300ms;
+}
+
+.start-wave .char47 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2350ms;
+          animation: wave 1.5s linear infinite -2350ms;
+}
+
+.start-wave .char48 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2400ms;
+          animation: wave 1.5s linear infinite -2400ms;
+}
+
+.start-wave .char49 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2450ms;
+          animation: wave 1.5s linear infinite -2450ms;
+}
+
+.start-wave .char50 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2500ms;
+          animation: wave 1.5s linear infinite -2500ms;
+}
+
+.start-wave .char51 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2550ms;
+          animation: wave 1.5s linear infinite -2550ms;
+}
+
+.start-wave .char52 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2600ms;
+          animation: wave 1.5s linear infinite -2600ms;
+}
+
+.start-wave .char53 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2650ms;
+          animation: wave 1.5s linear infinite -2650ms;
+}
+
+.start-wave .char54 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2700ms;
+          animation: wave 1.5s linear infinite -2700ms;
+}
+
+.start-wave .char55 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2750ms;
+          animation: wave 1.5s linear infinite -2750ms;
+}
+
+.start-wave .char56 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2800ms;
+          animation: wave 1.5s linear infinite -2800ms;
+}
+
+.start-wave .char57 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2850ms;
+          animation: wave 1.5s linear infinite -2850ms;
+}
+
+.start-wave .char58 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2900ms;
+          animation: wave 1.5s linear infinite -2900ms;
+}
+
+.start-wave .char59 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -2950ms;
+          animation: wave 1.5s linear infinite -2950ms;
+}
+
+.start-wave .char60 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3000ms;
+          animation: wave 1.5s linear infinite -3000ms;
+}
+
+.start-wave .char61 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3050ms;
+          animation: wave 1.5s linear infinite -3050ms;
+}
+
+.start-wave .char62 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3100ms;
+          animation: wave 1.5s linear infinite -3100ms;
+}
+
+.start-wave .char63 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3150ms;
+          animation: wave 1.5s linear infinite -3150ms;
+}
+
+.start-wave .char64 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3200ms;
+          animation: wave 1.5s linear infinite -3200ms;
+}
+
+.start-wave .char65 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3250ms;
+          animation: wave 1.5s linear infinite -3250ms;
+}
+
+.start-wave .char66 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3300ms;
+          animation: wave 1.5s linear infinite -3300ms;
+}
+
+.start-wave .char67 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3350ms;
+          animation: wave 1.5s linear infinite -3350ms;
+}
+
+.start-wave .char68 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3400ms;
+          animation: wave 1.5s linear infinite -3400ms;
+}
+
+.start-wave .char69 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3450ms;
+          animation: wave 1.5s linear infinite -3450ms;
+}
+
+.start-wave .char70 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3500ms;
+          animation: wave 1.5s linear infinite -3500ms;
+}
+
+.start-wave .char71 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3550ms;
+          animation: wave 1.5s linear infinite -3550ms;
+}
+
+.start-wave .char72 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3600ms;
+          animation: wave 1.5s linear infinite -3600ms;
+}
+
+.start-wave .char73 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3650ms;
+          animation: wave 1.5s linear infinite -3650ms;
+}
+
+.start-wave .char74 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3700ms;
+          animation: wave 1.5s linear infinite -3700ms;
+}
+
+.start-wave .char75 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3750ms;
+          animation: wave 1.5s linear infinite -3750ms;
+}
+
+.start-wave .char76 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3800ms;
+          animation: wave 1.5s linear infinite -3800ms;
+}
+
+.start-wave .char77 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3850ms;
+          animation: wave 1.5s linear infinite -3850ms;
+}
+
+.start-wave .char78 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3900ms;
+          animation: wave 1.5s linear infinite -3900ms;
+}
+
+.start-wave .char79 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -3950ms;
+          animation: wave 1.5s linear infinite -3950ms;
+}
+
+.start-wave .char80 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4000ms;
+          animation: wave 1.5s linear infinite -4000ms;
+}
+
+.start-wave .char81 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4050ms;
+          animation: wave 1.5s linear infinite -4050ms;
+}
+
+.start-wave .char82 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4100ms;
+          animation: wave 1.5s linear infinite -4100ms;
+}
+
+.start-wave .char83 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4150ms;
+          animation: wave 1.5s linear infinite -4150ms;
+}
+
+.start-wave .char84 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4200ms;
+          animation: wave 1.5s linear infinite -4200ms;
+}
+
+.start-wave .char85 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4250ms;
+          animation: wave 1.5s linear infinite -4250ms;
+}
+
+.start-wave .char86 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4300ms;
+          animation: wave 1.5s linear infinite -4300ms;
+}
+
+.start-wave .char87 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4350ms;
+          animation: wave 1.5s linear infinite -4350ms;
+}
+
+.start-wave .char88 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4400ms;
+          animation: wave 1.5s linear infinite -4400ms;
+}
+
+.start-wave .char89 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4450ms;
+          animation: wave 1.5s linear infinite -4450ms;
+}
+
+.start-wave .char90 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4500ms;
+          animation: wave 1.5s linear infinite -4500ms;
+}
+
+.start-wave .char91 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4550ms;
+          animation: wave 1.5s linear infinite -4550ms;
+}
+
+.start-wave .char92 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4600ms;
+          animation: wave 1.5s linear infinite -4600ms;
+}
+
+.start-wave .char93 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4650ms;
+          animation: wave 1.5s linear infinite -4650ms;
+}
+
+.start-wave .char94 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4700ms;
+          animation: wave 1.5s linear infinite -4700ms;
+}
+
+.start-wave .char95 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4750ms;
+          animation: wave 1.5s linear infinite -4750ms;
+}
+
+.start-wave .char96 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4800ms;
+          animation: wave 1.5s linear infinite -4800ms;
+}
+
+.start-wave .char97 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4850ms;
+          animation: wave 1.5s linear infinite -4850ms;
+}
+
+.start-wave .char98 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4900ms;
+          animation: wave 1.5s linear infinite -4900ms;
+}
+
+.start-wave .char99 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -4950ms;
+          animation: wave 1.5s linear infinite -4950ms;
+}
+
+.start-wave .char100 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5000ms;
+          animation: wave 1.5s linear infinite -5000ms;
+}
+
+.start-wave .char101 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5050ms;
+          animation: wave 1.5s linear infinite -5050ms;
+}
+
+.start-wave .char102 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5100ms;
+          animation: wave 1.5s linear infinite -5100ms;
+}
+
+.start-wave .char103 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5150ms;
+          animation: wave 1.5s linear infinite -5150ms;
+}
+
+.start-wave .char104 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5200ms;
+          animation: wave 1.5s linear infinite -5200ms;
+}
+
+.start-wave .char105 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5250ms;
+          animation: wave 1.5s linear infinite -5250ms;
+}
+
+.start-wave .char106 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5300ms;
+          animation: wave 1.5s linear infinite -5300ms;
+}
+
+.start-wave .char107 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5350ms;
+          animation: wave 1.5s linear infinite -5350ms;
+}
+
+.start-wave .char108 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5400ms;
+          animation: wave 1.5s linear infinite -5400ms;
+}
+
+.start-wave .char109 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5450ms;
+          animation: wave 1.5s linear infinite -5450ms;
+}
+
+.start-wave .char110 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5500ms;
+          animation: wave 1.5s linear infinite -5500ms;
+}
+
+.start-wave .char111 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5550ms;
+          animation: wave 1.5s linear infinite -5550ms;
+}
+
+.start-wave .char112 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5600ms;
+          animation: wave 1.5s linear infinite -5600ms;
+}
+
+.start-wave .char113 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5650ms;
+          animation: wave 1.5s linear infinite -5650ms;
+}
+
+.start-wave .char114 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5700ms;
+          animation: wave 1.5s linear infinite -5700ms;
+}
+
+.start-wave .char115 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5750ms;
+          animation: wave 1.5s linear infinite -5750ms;
+}
+
+.start-wave .char116 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5800ms;
+          animation: wave 1.5s linear infinite -5800ms;
+}
+
+.start-wave .char117 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5850ms;
+          animation: wave 1.5s linear infinite -5850ms;
+}
+
+.start-wave .char118 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5900ms;
+          animation: wave 1.5s linear infinite -5900ms;
+}
+
+.start-wave .char119 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -5950ms;
+          animation: wave 1.5s linear infinite -5950ms;
+}
+
+.start-wave .char120 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6000ms;
+          animation: wave 1.5s linear infinite -6000ms;
+}
+
+.start-wave .char121 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6050ms;
+          animation: wave 1.5s linear infinite -6050ms;
+}
+
+.start-wave .char122 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6100ms;
+          animation: wave 1.5s linear infinite -6100ms;
+}
+
+.start-wave .char123 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6150ms;
+          animation: wave 1.5s linear infinite -6150ms;
+}
+
+.start-wave .char124 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6200ms;
+          animation: wave 1.5s linear infinite -6200ms;
+}
+
+.start-wave .char125 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6250ms;
+          animation: wave 1.5s linear infinite -6250ms;
+}
+
+.start-wave .char126 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6300ms;
+          animation: wave 1.5s linear infinite -6300ms;
+}
+
+.start-wave .char127 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6350ms;
+          animation: wave 1.5s linear infinite -6350ms;
+}
+
+.start-wave .char128 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6400ms;
+          animation: wave 1.5s linear infinite -6400ms;
+}
+
+.start-wave .char129 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6450ms;
+          animation: wave 1.5s linear infinite -6450ms;
+}
+
+.start-wave .char130 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6500ms;
+          animation: wave 1.5s linear infinite -6500ms;
+}
+
+.start-wave .char131 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6550ms;
+          animation: wave 1.5s linear infinite -6550ms;
+}
+
+.start-wave .char132 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6600ms;
+          animation: wave 1.5s linear infinite -6600ms;
+}
+
+.start-wave .char133 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6650ms;
+          animation: wave 1.5s linear infinite -6650ms;
+}
+
+.start-wave .char134 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6700ms;
+          animation: wave 1.5s linear infinite -6700ms;
+}
+
+.start-wave .char135 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6750ms;
+          animation: wave 1.5s linear infinite -6750ms;
+}
+
+.start-wave .char136 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6800ms;
+          animation: wave 1.5s linear infinite -6800ms;
+}
+
+.start-wave .char137 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6850ms;
+          animation: wave 1.5s linear infinite -6850ms;
+}
+
+.start-wave .char138 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6900ms;
+          animation: wave 1.5s linear infinite -6900ms;
+}
+
+.start-wave .char139 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -6950ms;
+          animation: wave 1.5s linear infinite -6950ms;
+}
+
+.start-wave .char140 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7000ms;
+          animation: wave 1.5s linear infinite -7000ms;
+}
+
+.start-wave .char141 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7050ms;
+          animation: wave 1.5s linear infinite -7050ms;
+}
+
+.start-wave .char142 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7100ms;
+          animation: wave 1.5s linear infinite -7100ms;
+}
+
+.start-wave .char143 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7150ms;
+          animation: wave 1.5s linear infinite -7150ms;
+}
+
+.start-wave .char144 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7200ms;
+          animation: wave 1.5s linear infinite -7200ms;
+}
+
+.start-wave .char145 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7250ms;
+          animation: wave 1.5s linear infinite -7250ms;
+}
+
+.start-wave .char146 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7300ms;
+          animation: wave 1.5s linear infinite -7300ms;
+}
+
+.start-wave .char147 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7350ms;
+          animation: wave 1.5s linear infinite -7350ms;
+}
+
+.start-wave .char148 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7400ms;
+          animation: wave 1.5s linear infinite -7400ms;
+}
+
+.start-wave .char149 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7450ms;
+          animation: wave 1.5s linear infinite -7450ms;
+}
+
+.start-wave .char150 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7500ms;
+          animation: wave 1.5s linear infinite -7500ms;
+}
+
+.start-wave .char151 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7550ms;
+          animation: wave 1.5s linear infinite -7550ms;
+}
+
+.start-wave .char152 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7600ms;
+          animation: wave 1.5s linear infinite -7600ms;
+}
+
+.start-wave .char153 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7650ms;
+          animation: wave 1.5s linear infinite -7650ms;
+}
+
+.start-wave .char154 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7700ms;
+          animation: wave 1.5s linear infinite -7700ms;
+}
+
+.start-wave .char155 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7750ms;
+          animation: wave 1.5s linear infinite -7750ms;
+}
+
+.start-wave .char156 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7800ms;
+          animation: wave 1.5s linear infinite -7800ms;
+}
+
+.start-wave .char157 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7850ms;
+          animation: wave 1.5s linear infinite -7850ms;
+}
+
+.start-wave .char158 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7900ms;
+          animation: wave 1.5s linear infinite -7900ms;
+}
+
+.start-wave .char159 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -7950ms;
+          animation: wave 1.5s linear infinite -7950ms;
+}
+
+.start-wave .char160 {
+  display: inline-block;
+  -webkit-animation: wave 1.5s linear infinite -8000ms;
+          animation: wave 1.5s linear infinite -8000ms;
+}
+
+.sss .char1 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -50ms;
+          animation: wave2 1.5s linear infinite -50ms;
+}
+
+.sss .char2 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -100ms;
+          animation: wave2 1.5s linear infinite -100ms;
+}
+
+.sss .char3 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -150ms;
+          animation: wave2 1.5s linear infinite -150ms;
+}
+
+.sss .char4 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -200ms;
+          animation: wave2 1.5s linear infinite -200ms;
+}
+
+.sss .char5 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -250ms;
+          animation: wave2 1.5s linear infinite -250ms;
+}
+
+.sss .char6 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -300ms;
+          animation: wave2 1.5s linear infinite -300ms;
+}
+
+.sss .char7 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -350ms;
+          animation: wave2 1.5s linear infinite -350ms;
+}
+
+.sss .char8 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -400ms;
+          animation: wave2 1.5s linear infinite -400ms;
+}
+
+.sss .char9 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -450ms;
+          animation: wave2 1.5s linear infinite -450ms;
+}
+
+.sss .char10 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -500ms;
+          animation: wave2 1.5s linear infinite -500ms;
+}
+
+.sss .char11 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -550ms;
+          animation: wave2 1.5s linear infinite -550ms;
+}
+
+.sss .char12 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -600ms;
+          animation: wave2 1.5s linear infinite -600ms;
+}
+
+.sss .char13 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -650ms;
+          animation: wave2 1.5s linear infinite -650ms;
+}
+
+.sss .char14 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -700ms;
+          animation: wave2 1.5s linear infinite -700ms;
+}
+
+.sss .char15 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -750ms;
+          animation: wave2 1.5s linear infinite -750ms;
+}
+
+.sss .char16 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -800ms;
+          animation: wave2 1.5s linear infinite -800ms;
+}
+
+.sss .char17 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -850ms;
+          animation: wave2 1.5s linear infinite -850ms;
+}
+
+.sss .char18 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -900ms;
+          animation: wave2 1.5s linear infinite -900ms;
+}
+
+.sss .char19 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -950ms;
+          animation: wave2 1.5s linear infinite -950ms;
+}
+
+.sss .char20 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1000ms;
+          animation: wave2 1.5s linear infinite -1000ms;
+}
+
+.sss .char21 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1050ms;
+          animation: wave2 1.5s linear infinite -1050ms;
+}
+
+.sss .char22 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1100ms;
+          animation: wave2 1.5s linear infinite -1100ms;
+}
+
+.sss .char23 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1150ms;
+          animation: wave2 1.5s linear infinite -1150ms;
+}
+
+.sss .char24 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1200ms;
+          animation: wave2 1.5s linear infinite -1200ms;
+}
+
+.sss .char25 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1250ms;
+          animation: wave2 1.5s linear infinite -1250ms;
+}
+
+.sss .char26 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1300ms;
+          animation: wave2 1.5s linear infinite -1300ms;
+}
+
+.sss .char27 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1350ms;
+          animation: wave2 1.5s linear infinite -1350ms;
+}
+
+.sss .char28 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1400ms;
+          animation: wave2 1.5s linear infinite -1400ms;
+}
+
+.sss .char29 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1450ms;
+          animation: wave2 1.5s linear infinite -1450ms;
+}
+
+.sss .char30 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1500ms;
+          animation: wave2 1.5s linear infinite -1500ms;
+}
+
+.sss .char31 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1550ms;
+          animation: wave2 1.5s linear infinite -1550ms;
+}
+
+.sss .char32 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1600ms;
+          animation: wave2 1.5s linear infinite -1600ms;
+}
+
+.sss .char33 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1650ms;
+          animation: wave2 1.5s linear infinite -1650ms;
+}
+
+.sss .char34 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1700ms;
+          animation: wave2 1.5s linear infinite -1700ms;
+}
+
+.sss .char35 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1750ms;
+          animation: wave2 1.5s linear infinite -1750ms;
+}
+
+.sss .char36 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1800ms;
+          animation: wave2 1.5s linear infinite -1800ms;
+}
+
+.sss .char37 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1850ms;
+          animation: wave2 1.5s linear infinite -1850ms;
+}
+
+.sss .char38 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1900ms;
+          animation: wave2 1.5s linear infinite -1900ms;
+}
+
+.sss .char39 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -1950ms;
+          animation: wave2 1.5s linear infinite -1950ms;
+}
+
+.sss .char40 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2000ms;
+          animation: wave2 1.5s linear infinite -2000ms;
+}
+
+.sss .char41 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2050ms;
+          animation: wave2 1.5s linear infinite -2050ms;
+}
+
+.sss .char42 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2100ms;
+          animation: wave2 1.5s linear infinite -2100ms;
+}
+
+.sss .char43 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2150ms;
+          animation: wave2 1.5s linear infinite -2150ms;
+}
+
+.sss .char44 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2200ms;
+          animation: wave2 1.5s linear infinite -2200ms;
+}
+
+.sss .char45 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2250ms;
+          animation: wave2 1.5s linear infinite -2250ms;
+}
+
+.sss .char46 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2300ms;
+          animation: wave2 1.5s linear infinite -2300ms;
+}
+
+.sss .char47 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2350ms;
+          animation: wave2 1.5s linear infinite -2350ms;
+}
+
+.sss .char48 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2400ms;
+          animation: wave2 1.5s linear infinite -2400ms;
+}
+
+.sss .char49 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2450ms;
+          animation: wave2 1.5s linear infinite -2450ms;
+}
+
+.sss .char50 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2500ms;
+          animation: wave2 1.5s linear infinite -2500ms;
+}
+
+.sss .char51 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2550ms;
+          animation: wave2 1.5s linear infinite -2550ms;
+}
+
+.sss .char52 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2600ms;
+          animation: wave2 1.5s linear infinite -2600ms;
+}
+
+.sss .char53 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2650ms;
+          animation: wave2 1.5s linear infinite -2650ms;
+}
+
+.sss .char54 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2700ms;
+          animation: wave2 1.5s linear infinite -2700ms;
+}
+
+.sss .char55 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2750ms;
+          animation: wave2 1.5s linear infinite -2750ms;
+}
+
+.sss .char56 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2800ms;
+          animation: wave2 1.5s linear infinite -2800ms;
+}
+
+.sss .char57 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2850ms;
+          animation: wave2 1.5s linear infinite -2850ms;
+}
+
+.sss .char58 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2900ms;
+          animation: wave2 1.5s linear infinite -2900ms;
+}
+
+.sss .char59 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -2950ms;
+          animation: wave2 1.5s linear infinite -2950ms;
+}
+
+.sss .char60 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3000ms;
+          animation: wave2 1.5s linear infinite -3000ms;
+}
+
+.sss .char61 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3050ms;
+          animation: wave2 1.5s linear infinite -3050ms;
+}
+
+.sss .char62 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3100ms;
+          animation: wave2 1.5s linear infinite -3100ms;
+}
+
+.sss .char63 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3150ms;
+          animation: wave2 1.5s linear infinite -3150ms;
+}
+
+.sss .char64 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3200ms;
+          animation: wave2 1.5s linear infinite -3200ms;
+}
+
+.sss .char65 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3250ms;
+          animation: wave2 1.5s linear infinite -3250ms;
+}
+
+.sss .char66 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3300ms;
+          animation: wave2 1.5s linear infinite -3300ms;
+}
+
+.sss .char67 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3350ms;
+          animation: wave2 1.5s linear infinite -3350ms;
+}
+
+.sss .char68 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3400ms;
+          animation: wave2 1.5s linear infinite -3400ms;
+}
+
+.sss .char69 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3450ms;
+          animation: wave2 1.5s linear infinite -3450ms;
+}
+
+.sss .char70 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3500ms;
+          animation: wave2 1.5s linear infinite -3500ms;
+}
+
+.sss .char71 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3550ms;
+          animation: wave2 1.5s linear infinite -3550ms;
+}
+
+.sss .char72 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3600ms;
+          animation: wave2 1.5s linear infinite -3600ms;
+}
+
+.sss .char73 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3650ms;
+          animation: wave2 1.5s linear infinite -3650ms;
+}
+
+.sss .char74 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3700ms;
+          animation: wave2 1.5s linear infinite -3700ms;
+}
+
+.sss .char75 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3750ms;
+          animation: wave2 1.5s linear infinite -3750ms;
+}
+
+.sss .char76 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3800ms;
+          animation: wave2 1.5s linear infinite -3800ms;
+}
+
+.sss .char77 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3850ms;
+          animation: wave2 1.5s linear infinite -3850ms;
+}
+
+.sss .char78 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3900ms;
+          animation: wave2 1.5s linear infinite -3900ms;
+}
+
+.sss .char79 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -3950ms;
+          animation: wave2 1.5s linear infinite -3950ms;
+}
+
+.sss .char80 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4000ms;
+          animation: wave2 1.5s linear infinite -4000ms;
+}
+
+.sss .char81 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4050ms;
+          animation: wave2 1.5s linear infinite -4050ms;
+}
+
+.sss .char82 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4100ms;
+          animation: wave2 1.5s linear infinite -4100ms;
+}
+
+.sss .char83 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4150ms;
+          animation: wave2 1.5s linear infinite -4150ms;
+}
+
+.sss .char84 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4200ms;
+          animation: wave2 1.5s linear infinite -4200ms;
+}
+
+.sss .char85 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4250ms;
+          animation: wave2 1.5s linear infinite -4250ms;
+}
+
+.sss .char86 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4300ms;
+          animation: wave2 1.5s linear infinite -4300ms;
+}
+
+.sss .char87 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4350ms;
+          animation: wave2 1.5s linear infinite -4350ms;
+}
+
+.sss .char88 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4400ms;
+          animation: wave2 1.5s linear infinite -4400ms;
+}
+
+.sss .char89 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4450ms;
+          animation: wave2 1.5s linear infinite -4450ms;
+}
+
+.sss .char90 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4500ms;
+          animation: wave2 1.5s linear infinite -4500ms;
+}
+
+.sss .char91 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4550ms;
+          animation: wave2 1.5s linear infinite -4550ms;
+}
+
+.sss .char92 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4600ms;
+          animation: wave2 1.5s linear infinite -4600ms;
+}
+
+.sss .char93 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4650ms;
+          animation: wave2 1.5s linear infinite -4650ms;
+}
+
+.sss .char94 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4700ms;
+          animation: wave2 1.5s linear infinite -4700ms;
+}
+
+.sss .char95 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4750ms;
+          animation: wave2 1.5s linear infinite -4750ms;
+}
+
+.sss .char96 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4800ms;
+          animation: wave2 1.5s linear infinite -4800ms;
+}
+
+.sss .char97 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4850ms;
+          animation: wave2 1.5s linear infinite -4850ms;
+}
+
+.sss .char98 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4900ms;
+          animation: wave2 1.5s linear infinite -4900ms;
+}
+
+.sss .char99 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -4950ms;
+          animation: wave2 1.5s linear infinite -4950ms;
+}
+
+.sss .char100 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5000ms;
+          animation: wave2 1.5s linear infinite -5000ms;
+}
+
+.sss .char101 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5050ms;
+          animation: wave2 1.5s linear infinite -5050ms;
+}
+
+.sss .char102 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5100ms;
+          animation: wave2 1.5s linear infinite -5100ms;
+}
+
+.sss .char103 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5150ms;
+          animation: wave2 1.5s linear infinite -5150ms;
+}
+
+.sss .char104 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5200ms;
+          animation: wave2 1.5s linear infinite -5200ms;
+}
+
+.sss .char105 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5250ms;
+          animation: wave2 1.5s linear infinite -5250ms;
+}
+
+.sss .char106 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5300ms;
+          animation: wave2 1.5s linear infinite -5300ms;
+}
+
+.sss .char107 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5350ms;
+          animation: wave2 1.5s linear infinite -5350ms;
+}
+
+.sss .char108 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5400ms;
+          animation: wave2 1.5s linear infinite -5400ms;
+}
+
+.sss .char109 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5450ms;
+          animation: wave2 1.5s linear infinite -5450ms;
+}
+
+.sss .char110 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5500ms;
+          animation: wave2 1.5s linear infinite -5500ms;
+}
+
+.sss .char111 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5550ms;
+          animation: wave2 1.5s linear infinite -5550ms;
+}
+
+.sss .char112 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5600ms;
+          animation: wave2 1.5s linear infinite -5600ms;
+}
+
+.sss .char113 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5650ms;
+          animation: wave2 1.5s linear infinite -5650ms;
+}
+
+.sss .char114 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5700ms;
+          animation: wave2 1.5s linear infinite -5700ms;
+}
+
+.sss .char115 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5750ms;
+          animation: wave2 1.5s linear infinite -5750ms;
+}
+
+.sss .char116 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5800ms;
+          animation: wave2 1.5s linear infinite -5800ms;
+}
+
+.sss .char117 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5850ms;
+          animation: wave2 1.5s linear infinite -5850ms;
+}
+
+.sss .char118 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5900ms;
+          animation: wave2 1.5s linear infinite -5900ms;
+}
+
+.sss .char119 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -5950ms;
+          animation: wave2 1.5s linear infinite -5950ms;
+}
+
+.sss .char120 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6000ms;
+          animation: wave2 1.5s linear infinite -6000ms;
+}
+
+.sss .char121 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6050ms;
+          animation: wave2 1.5s linear infinite -6050ms;
+}
+
+.sss .char122 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6100ms;
+          animation: wave2 1.5s linear infinite -6100ms;
+}
+
+.sss .char123 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6150ms;
+          animation: wave2 1.5s linear infinite -6150ms;
+}
+
+.sss .char124 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6200ms;
+          animation: wave2 1.5s linear infinite -6200ms;
+}
+
+.sss .char125 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6250ms;
+          animation: wave2 1.5s linear infinite -6250ms;
+}
+
+.sss .char126 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6300ms;
+          animation: wave2 1.5s linear infinite -6300ms;
+}
+
+.sss .char127 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6350ms;
+          animation: wave2 1.5s linear infinite -6350ms;
+}
+
+.sss .char128 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6400ms;
+          animation: wave2 1.5s linear infinite -6400ms;
+}
+
+.sss .char129 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6450ms;
+          animation: wave2 1.5s linear infinite -6450ms;
+}
+
+.sss .char130 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6500ms;
+          animation: wave2 1.5s linear infinite -6500ms;
+}
+
+.sss .char131 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6550ms;
+          animation: wave2 1.5s linear infinite -6550ms;
+}
+
+.sss .char132 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6600ms;
+          animation: wave2 1.5s linear infinite -6600ms;
+}
+
+.sss .char133 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6650ms;
+          animation: wave2 1.5s linear infinite -6650ms;
+}
+
+.sss .char134 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6700ms;
+          animation: wave2 1.5s linear infinite -6700ms;
+}
+
+.sss .char135 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6750ms;
+          animation: wave2 1.5s linear infinite -6750ms;
+}
+
+.sss .char136 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6800ms;
+          animation: wave2 1.5s linear infinite -6800ms;
+}
+
+.sss .char137 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6850ms;
+          animation: wave2 1.5s linear infinite -6850ms;
+}
+
+.sss .char138 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6900ms;
+          animation: wave2 1.5s linear infinite -6900ms;
+}
+
+.sss .char139 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -6950ms;
+          animation: wave2 1.5s linear infinite -6950ms;
+}
+
+.sss .char140 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7000ms;
+          animation: wave2 1.5s linear infinite -7000ms;
+}
+
+.sss .char141 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7050ms;
+          animation: wave2 1.5s linear infinite -7050ms;
+}
+
+.sss .char142 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7100ms;
+          animation: wave2 1.5s linear infinite -7100ms;
+}
+
+.sss .char143 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7150ms;
+          animation: wave2 1.5s linear infinite -7150ms;
+}
+
+.sss .char144 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7200ms;
+          animation: wave2 1.5s linear infinite -7200ms;
+}
+
+.sss .char145 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7250ms;
+          animation: wave2 1.5s linear infinite -7250ms;
+}
+
+.sss .char146 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7300ms;
+          animation: wave2 1.5s linear infinite -7300ms;
+}
+
+.sss .char147 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7350ms;
+          animation: wave2 1.5s linear infinite -7350ms;
+}
+
+.sss .char148 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7400ms;
+          animation: wave2 1.5s linear infinite -7400ms;
+}
+
+.sss .char149 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7450ms;
+          animation: wave2 1.5s linear infinite -7450ms;
+}
+
+.sss .char150 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7500ms;
+          animation: wave2 1.5s linear infinite -7500ms;
+}
+
+.sss .char151 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7550ms;
+          animation: wave2 1.5s linear infinite -7550ms;
+}
+
+.sss .char152 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7600ms;
+          animation: wave2 1.5s linear infinite -7600ms;
+}
+
+.sss .char153 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7650ms;
+          animation: wave2 1.5s linear infinite -7650ms;
+}
+
+.sss .char154 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7700ms;
+          animation: wave2 1.5s linear infinite -7700ms;
+}
+
+.sss .char155 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7750ms;
+          animation: wave2 1.5s linear infinite -7750ms;
+}
+
+.sss .char156 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7800ms;
+          animation: wave2 1.5s linear infinite -7800ms;
+}
+
+.sss .char157 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7850ms;
+          animation: wave2 1.5s linear infinite -7850ms;
+}
+
+.sss .char158 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7900ms;
+          animation: wave2 1.5s linear infinite -7900ms;
+}
+
+.sss .char159 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -7950ms;
+          animation: wave2 1.5s linear infinite -7950ms;
+}
+
+.sss .char160 {
+  display: inline-block;
+  -webkit-animation: wave2 1.5s linear infinite -8000ms;
+          animation: wave2 1.5s linear infinite -8000ms;
+}
+/*# sourceMappingURL=wave.css.map */
