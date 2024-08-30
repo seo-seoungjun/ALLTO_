@@ -4,11 +4,15 @@
 <p>ALLTO가 추구하는 가치를 전달하고 제공되는 서비스 및 작업 결과물 공유를 위해 제작되었습니다</p>
 <br/>
 <p>창업 당시 계약상의 이유로 일정 기간동안 솔루션을 외부에 공개할 수 없었기 때문에 배포된 웹사이트 상에서 솔루션 결과 페이지에 접근할수 있는 UI가 없습니다</p>
-솔루션 결과 페이지는 [여기](#브랜딩-솔루션-페이지)를 참고해주시면 감사하겠습니다
+
+컨설팅 결과 페이지는 [브랜딩 솔루션 페이지](#브랜딩-솔루션-페이지) 를 참고해주시면 감사하겠습니다
+
 <br/>
 
 ###### DNS 서비스가 만료되어 cloudfront로 대체합니다 :)
-> 🔗 URL : https://dn8h3prk62ua2.cloudfront.net
+> 🔗 ALLTO website: https://dn8h3prk62ua2.cloudfront.net
+
+<br/>
 
 ## 브랜딩 솔루션 페이지
 
@@ -19,6 +23,8 @@
   <li>Dparks : https://dn8h3prk62ua2.cloudfront.net/material/dparks/dparks-material.html</li>
   <li>Waddle : https://dn8h3prk62ua2.cloudfront.net/material/waddle/waddle.html</li>
 </ul>
+
+<br/>
 
 ## Interactive Component
 #### 메인 페이지 알파벳 파도 효과
