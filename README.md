@@ -44,9 +44,8 @@
 https://github.com/user-attachments/assets/960a15a3-0519-4bb8-87d6-d50bd12ff7a6
 
 
-#### ABOUT 페이지 스크롤 인터랙션
+#### [ABOUT 페이지 스크롤 인터랙션](https://dn8h3prk62ua2.cloudfront.net/html/about.html)
 
-[링크](https://dn8h3prk62ua2.cloudfront.net/html/about.html)
 
 https://github.com/user-attachments/assets/e2404c4c-2094-46f9-8ab7-71300793a44e
 
