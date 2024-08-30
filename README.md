@@ -2,13 +2,15 @@
 <p>Creative wave <strong><em>ALL TO </em></strong>you</p> <p>브랜딩 컨설팅 창업팀 ALLTO 웹사이트입니다!</p>
 
 DNS 서비스가 만료되어 cloudfront로 대체합니다 :)
-
-🔗 URL : https://dn8h3prk62ua2.cloudfront.net
+> 🔗 URL : https://dn8h3prk62ua2.cloudfront.net
 
 ## 브랜딩 솔루션 페이지
-<p>Maring : https://dn8h3prk62ua2.cloudfront.net/material/maring/maring.html </p>
-<p>Dparks : https://dn8h3prk62ua2.cloudfront.net/material/dparks/dparks-material.html </p>
-<p>Waddle : https://dn8h3prk62ua2.cloudfront.net/material/waddle/waddle.html </p>
+
+<ul>
+  <li>Maring : https://dn8h3prk62ua2.cloudfront.net/material/maring/maring.html</li>
+  <li>Dparks : https://dn8h3prk62ua2.cloudfront.net/material/dparks/dparks-material.html</li>
+  <li>Waddle : https://dn8h3prk62ua2.cloudfront.net/material/waddle/waddle.html</li>
+</ul>
 
 ## Interactive Component
 #### 메인 페이지 알파벳 파도 효과
