@@ -1,10 +1,14 @@
 # ALLTO
-<p>Creative wave <strong><em>ALL TO </em></strong>you</p> <p>브랜딩 컨설팅 창업팀 ALLTO 웹사이트입니다!</p>
 
-DNS 서비스가 만료되어 cloudfront로 대체합니다 :)
+<p>Creative wave <strong><em><span>ALL TO</span></em></strong> you</p> <p>브랜딩 컨설팅 창업팀 ALLTO의 웹사이트입니다!</p>
+<p>ALLTO가 추구하는 가치와 </p>
+
+###### DNS 서비스가 만료되어 cloudfront로 대체합니다 :)
 > 🔗 URL : https://dn8h3prk62ua2.cloudfront.net
 
 ## 브랜딩 솔루션 페이지
+
+<p>스타트업에게 제공했던 브랜딩 솔루션 결과를 공유하는 페이지입니다</p>
 
 <ul>
   <li>Maring : https://dn8h3prk62ua2.cloudfront.net/material/maring/maring.html</li>
@@ -19,7 +23,7 @@ DNS 서비스가 만료되어 cloudfront로 대체합니다 :)
 https://github.com/user-attachments/assets/960a15a3-0519-4bb8-87d6-d50bd12ff7a6
 
 
-#### about 페이지 스크롤 인터랙션
+#### ABOUT 페이지 스크롤 인터랙션
 
 
 https://github.com/user-attachments/assets/e2404c4c-2094-46f9-8ab7-71300793a44e
