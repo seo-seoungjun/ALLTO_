@@ -1,6 +1,8 @@
 # ALLTO
 <p>Creative wave <strong><em>ALL TO </em></strong>you</p> <p>브랜딩 컨설팅 창업팀 ALLTO 웹사이트입니다!</p>
 
+DNS 서비스가 만료되어 cloudfront로 대체합니다 :)
+
 🔗 URL : https://dn8h3prk62ua2.cloudfront.net
 
 ## 브랜딩 솔루션 페이지
