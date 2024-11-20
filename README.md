@@ -75,6 +75,13 @@ https://github.com/user-attachments/assets/0440e2b3-021a-444f-b7be-5aa4e6e1043f
 
 https://github.com/user-attachments/assets/ca2dc220-01e9-4948-865f-6c2b5c791db9
 
+##### [하이라이트]
+
+
+
+https://github.com/user-attachments/assets/2b5e3902-8ca0-4991-a870-e2e0cdd29b51
+
+
 
 ##### [스크롤 감지](https://dn8h3prk62ua2.cloudfront.net/html/dream-voyager.html)
 
